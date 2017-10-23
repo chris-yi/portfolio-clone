@@ -1,0 +1,166 @@
+.App{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navbar {
+  width: 100%;
+  height: 56px;
+  background-color: #1F2125;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title {
+  font-family: 'Kaushan Script', cursive;
+  color: #fed136;
+  font-size: 20px;
+  margin-left: 18px;
+}
+
+.links {
+  display: none;
+}
+
+.menu-button {
+  background-color: #FECA30;
+  color: #FFFBF0;
+  border: none;
+  text-transform: uppercase;
+  font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size: 12px;
+  padding: 12px 13px;
+  border-radius: 4px;
+  margin-right: 16px;
+}
+
+.landing {
+  background-image: url("https://blackrockdigital.github.io/startbootstrap-agency/img/header-bg.jpg");
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  text-align: center;
+  color: #ffffff;
+}
+
+.container {
+  width: 100%;
+
+  margin-right: auto;
+  margin-left: auto;
+  /* margin-top: 92px;
+  margin-bottom: 74px; */
+}
+
+.hello-main {
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+
+.welcome {
+  font-size: 22px;
+  font-family: 'Droid Serif', serif;
+  font-style: italic;
+  margin-top: 92px;
+  margin-bottom: 16px;
+}
+
+.nice-to-meet {
+  font-size: 50px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 8px;
+  margin-bottom: 12px;
+}
+
+.tell-me-btn {
+  background-color: #fed136;
+  border: none;
+  color: #ffffff; 
+  padding: 24px 40px;
+  text-transform: uppercase;
+  font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 4px;
+  margin-bottom: 98px;
+}
+ 
+@media (min-width: 575px) {
+  .navbar {
+    justify-content: space-around;
+    padding-right: 0px;
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar {
+    justify-content: space-between;
+    padding-right: 0px;
+  }
+
+  .title {
+    margin-left: 60px;
+  }
+
+  .menu-button {
+    margin-right: 60px;
+  }
+
+  .welcome {
+    font-size: 40px;
+    font-family: 'Droid Serif', serif;
+    font-style: italic;
+    margin-top: 240px;
+    margin-bottom: 18px;
+  }
+
+  .nice-to-meet {
+    font-size: 75px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 2px;
+    margin-bottom: 50px
+  }
+  
+  .tell-me-btn {
+    margin-bottom: 170px;
+  }
+
+}
+
+@media (min-width: 990px) {
+  .navbar {
+    height: 100px;
+  }
+
+  .title {
+    font-size: 1.75em;
+  }
+
+  .links {
+    width: 500px;
+    font-size: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 60px;
+    text-transform: uppercase;
+  }
+
+  .menu-button {
+    display: none;
+  }
+
+  .welcome {
+    margin-top: 213px;
+    margin-bottom: 18px;
+  }
+}
+
+
